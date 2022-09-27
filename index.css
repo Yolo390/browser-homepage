@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html {
+	font-family: Hack, 'Open Sans', sans-serif;
+	background-color: #24283b;
+	color: #cfc9c2;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+main {
+	height: 100vh;
+	font-size: 30px;
+}
+
+.content {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.hover {
+	transition: all 0.2s ease-in-out;
+}
+
+.hover:hover {
+	transform: scale(1.2);
+}
+
+.twitter {
+	margin: 0px 50px 150px 50px;
+}
+
+.welcome {
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+.second {
+	margin-top: -50px;
+	margin-bottom: -40px;
+}
+
+.drive {
+	margin: 100px 50px 0px 50px;
+}
